@@ -17,9 +17,8 @@
   //Int_t run_no[128]={3077,3081,3086,3090,3094,3098,3102,3106};
 
   // WE3, 13C
-  Int_t nrofruns=5; 
-  Int_t run_no[128]={3078,3110,3123,3132,3141};
-
+  Int_t nrofruns=8; 
+  Int_t run_no[128]={1093,1100,1104,1108,1112,1117,1123,1128};
 
   //TF1 *fit = new TF1("fit","gaus(0) + pol1(3)",1,800);
 
@@ -46,7 +45,7 @@
 	  fit->SetParLimits(0,0,1e9);
 */
 
-	  hX1pos->Fit("gaus","R","",623,630);       // for 13C
+	  hX1pos->Fit("gaus","R","",649,656);       // for 13C
 	  //hX1pos->Fit("gaus","R","",678,686);       // for Mg run 1064 and after
 	  //hX1pos->Fit("gaus","R","",610,616);    // for mylar run 1071 and after
 
