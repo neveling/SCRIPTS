@@ -1,2 +1,2 @@
 # SCRIPTS
-My third attempt in having experiment-specific script repository
+An experiment-specific script repository for scripts used in the analysis procedure of K600 experiments
