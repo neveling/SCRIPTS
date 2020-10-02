@@ -32,10 +32,10 @@ int main() {
     
 
     ////    These are the input variables
-    m[0] = 4;
-    m[1] = 16;
-    m[2] = 4;
-    m[3] = 16;
+    m[0] = 1.007276;
+    m[1] = 12;
+    m[2] = 3.015501;
+    m[3] = 10.016853;
     
     ////    Projectile/Beam Energy (Lab Frame)
     T[0] = 200.0;
